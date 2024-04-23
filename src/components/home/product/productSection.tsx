@@ -3,7 +3,7 @@ import ProductView from "./productview";
 
 const ProductSection = () => {
   return (
-    <div className="w-full flex justify-center mb-20 shadow-inner shadow-[inset -2px_0px_2px_rgba(0, 0, 0, 0.2)] shadow-sm">
+    <div id='section-3' className="w-full flex justify-center mb-20 shadow-inner shadow-[inset -2px_0px_2px_rgba(0, 0, 0, 0.2)] shadow-sm">
       <div className="max-w-[1280px] w-full h-full mx-2">
         <div
           id="section-1"

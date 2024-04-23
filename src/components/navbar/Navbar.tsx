@@ -5,6 +5,8 @@ import NavbarMobile from "./NavbarMobile";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Toaster } from "../ui/toaster";
+import Image from "next/image";
+import logo from "@/assets/logo-without-name.png"
 const Navbar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
@@ -47,9 +49,10 @@ const Navbar = () => {
           </button>
         </div>
         <div className="w-full justify-between items-center  px-3 py-2 flex drop-shadow-2xl">
-          <div className="font-medium text-2xl bg-gradient-to-tr from-blue-500 to-blue-900 bg-clip-text text-transparent">
-            DesignTec
-          </div>
+         <div>
+          <Image src={logo} alt="logo" className="w-10 h-10"
+          />
+         </div>
           <div className="px-2">
             <div className="md:flex hidden">
               <NavbarDesktop />

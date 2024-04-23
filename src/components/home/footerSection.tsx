@@ -4,7 +4,7 @@ import { Separator } from "../ui/separator";
 import Link from "next/link";
 const FooterSection = () => {
   return (
-    <div className="w-full flex justify-center pb-10 pt-10 bg-primary min-h-screen">
+    <div id="section-4" className="w-full flex justify-center pb-10 pt-10 bg-primary min-h-screen">
       <div className="max-w-[1280px] w-full h-full">
         <div className="flex flex-col w-full h-full ">
           <div className="w-full flex flex-col items-center gap-5">
